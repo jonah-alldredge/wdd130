@@ -18,7 +18,7 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30 px gray;
+    box-shadow: 0 0 30px gray;
 }
 
 p{
@@ -45,3 +45,4 @@ footer{
     border-top: 1px solid #000;
     align-items: center;
 }
+
