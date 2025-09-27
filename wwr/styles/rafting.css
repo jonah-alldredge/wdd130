@@ -93,3 +93,22 @@ h1 {
   background-color: var(--accent1-color);
   color: #fff; 
 }
+
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+.adventure h2{
+    grid-column: 1/6;
+    text-align: center;
+}
+.adventure img{
+    height: 100px;
+    width: 150px;
+}
+.adventure figure {
+    text-align: center;
+    font: var(--body-font);
+    font-size: 14px;
+}
