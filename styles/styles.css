@@ -81,7 +81,9 @@ body {
 
 /*Class Selectors*/
 .box {
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
     padding: 1rem;
     border: 0;
     background-color: #ddd;
@@ -90,6 +92,7 @@ body {
 
 .indent {
     padding-left: 2rem;
+
 }
 .grid {
         display: grid;
@@ -98,8 +101,9 @@ body {
     }
         main {
             grid-column: 2/3;
-            margin: 1rem;
-            
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin-left: 1rem;
         }
         aside {
             width: 20rem;
