@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>Basic Quiz Form</title>
+</head>
+
+<body>
+    <main>
+        <h1>✅ Basic HTML and CSS Quiz</h1> <!--For Emojis hit the window key + period-->
+        <form class="box">
+            <div class="quiz-item box">
+                <label>
+                    1. What does the acronym CSS stand for?
+                    <input type="text" id="q1" name="q1" required>
+                    <!--The required is a boolean and makes the question required-->
+                </label>
+
+            </div>
+            <div class="quiz-item box">
+                <label for="q1">2. How are id and class attributes selected in CSS?</label>
+                <textarea name="q2" id="q2"></textarea>
+            </div>
+            <div class="quiz-item box">
+                <label for="q1">3. Which of the following is a valid CSS comment?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose one</option>
+                    <!--This first one is unselectable, but displays automatically-->
+                    <option value="a">&lt;!--This is a comment --&gt;</option>
+                    <option value="b">/*This is a comment */</option>
+                    <option value="c">// This is a comment</option>
+                </select>
+            </div>
+            <div class="quiz-item box">
+                <label for="q1">4. What is the bottom margin given this declaration? </label>
+                <code
+                    class="box">margin: 10px 5px 15px;</code><!--When you have 3 values, the first is top, second is left right, and then last one is bottom-->
+                <input type="text" id="q1" name="q1">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+
+</html>
