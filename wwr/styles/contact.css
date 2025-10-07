@@ -81,6 +81,8 @@ input, select, textarea {
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
     grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
+    left: 135px;
 }
 
 .purpose legend{
