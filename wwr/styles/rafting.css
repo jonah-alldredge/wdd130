@@ -200,7 +200,15 @@ input, select, textarea {
 
 button{
     width: fit-content;
-    
+    font-size: 18px;
+    color: white;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: darkblue;
+}
+
+button:hover{
+    background-color: green;
 }
 
 .map iframe{
