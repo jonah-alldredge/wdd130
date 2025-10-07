@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #f4a261;
+  --primary-color: darkblue;
   --secondary-color: #055a05;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
@@ -27,6 +27,8 @@ nav, a{
     justify-content:space-evenly;
     align-items: center;
     text-decoration: none;
+    color: white;
+    font: var(--body-font);
 }
 header img {
     height: 50px;
