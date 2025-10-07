@@ -71,7 +71,7 @@ input, select, textarea {
 
 .purpose{
     display: grid;
-    
+
 }
 
 button{
@@ -87,6 +87,7 @@ button{
 .right{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 100%;
     gap: 20px;
 }
