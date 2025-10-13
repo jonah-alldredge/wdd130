@@ -45,7 +45,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2 { 
     font-family: var(--heading-font);
     color: var(--accent1-color);
 }
@@ -262,3 +262,36 @@ footer {
     height: 30px;
 }
 
+
+.trips {
+    max-width: 840px;
+}
+
+.trip_card{
+    display: flex; /*This puts the text on the left and the image on the right because css lays it out from top to bottom in the html*/
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.trip_card img{
+    width: 350px;
+    height: auto;
+}
+
+.trip_card_left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.trip_card_left ul{
+    list-style: none;
+    margin: 3px;
+}
+
+.trip_card_left li{
+    margin-bottom: 5px;
+}
