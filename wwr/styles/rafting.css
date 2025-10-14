@@ -272,7 +272,7 @@ footer {
     align-items: flex-start;
     justify-content: space-between;
     gap: 10px;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 5px;
 }
 
@@ -285,6 +285,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    max-width: 550px;
 }
 
 .trip_card_left ul{
@@ -294,4 +295,39 @@ footer {
 
 .trip_card_left li{
     margin-bottom: 5px;
+    
+}
+
+.trip_card_left_text{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.trip_card_left_text p{
+    max-width: 250px;
+}
+.company{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+table {
+  width: auto;
+  border-collapse: collapse;   
+  margin: auto;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.contact_us a{
+    color: blue;
 }
